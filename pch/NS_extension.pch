@@ -1,0 +1,42 @@
+
+#ifndef PrefixHeader_txt
+#define PrefixHeader_txt
+
+
+
+//NS_extension
+
+#import "clsMPMediaItem.h"
+#import "clsNSArray+deepCopy.h"
+#import "clsNSArray.h"
+#import "clsNSData.h"
+#import "clsNSDate+utility.h"
+#import "clsNSDate.h"
+#import "clsNSDate_utility.h"
+#import "clsNSDictinary+deepCopy.h"
+#import "clsNSDictionary+LinqExtensions.h"
+#import "clsNSDictionary.h"
+#import "clsNSError.h"
+#import "clsNSException.h"
+#import "clsNSIndexPath.h"
+#import "clsNSIndexSet.h"
+#import "clsNSMutableArray.h"
+#import "clsNSMutableAttributedString.h"
+#import "clsNSMutableDictionary.h"
+#import "clsNSMutableParagraphStyle.h"
+#import "clsNSMutableString.h"
+#import "clsNSNotificationCenter.h"
+#import "clsNSNumber.h"
+#import "clsNSObject.h"
+#import "clsNSString+MacOS.h"
+#import "clsNSString+iOS.h"
+#import "clsNSString.h"
+#import "clsNSTimer.h"
+#import "clsNSURLComponents.h"
+#import "clsNSURLSessionDataTask.h"
+#import "clsNSUserDefaults.h"
+#import "clsNSXMLDocument+utility.h"
+//-NS_extension
+
+
+#endif /* PrefixHeader_txt */

@@ -1,0 +1,32 @@
+
+#ifndef PrefixHeader_txt
+#define PrefixHeader_txt
+
+
+
+//NS_OSX_UI_Extension
+
+#import "NSButton.h"
+#import "NSButtonCell.h"
+#import "NSComboBox.h"
+#import "NSImage+Utility.h"
+#import "NSImageView.h"
+#import "NSLabel.h"
+#import "NSMatrix.h"
+#import "NSOutlineView.h"
+#import "NSPopUpButton.h"
+#import "NSScrollView.h"
+#import "NSSegmentedControl.h"
+#import "NSStoryboard.h"
+#import "NSTabViewController.h"
+#import "NSTableColumn.h"
+#import "NSTableView.h"
+#import "NSTextField.h"
+#import "NSTreeNode.h"
+#import "NSView.h"
+#import "NSViewController.h"
+#import "NSWindow.h"
+//-NS_OSX_UI_Extension
+
+
+#endif /* PrefixHeader_txt */

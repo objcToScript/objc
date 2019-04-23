@@ -1,0 +1,15 @@
+
+#ifndef PrefixHeader_txt
+#define PrefixHeader_txt
+
+
+
+//NS_OSX_Libs
+
+#import "clsNSArrayController.h"
+#import "clsNSColor.h"
+#import "clsNSPasteboard.h"
+//-NS_OSX_Libs
+
+
+#endif /* PrefixHeader_txt */
