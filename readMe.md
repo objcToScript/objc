@@ -1,4 +1,4 @@
-Objective-C To Like Script
+Objective-C To  Script Like
 
 Objective-cをExtensionで加工してScriptのような便利さで使うことを目標にしています。
 
