@@ -6,9 +6,8 @@ Objective-cをExtensionで加工してScriptのような便利さで使えるよ
 
 関数名の最初には_を追加することで検索できます
 
-Precompile Prefix Headerを追加し、記入することでソースが認識されます。
 
-example
+Example
 
 Before
 
@@ -21,11 +20,9 @@ NSArray* values = [@"teste , test" _split:@","];
 _でScriptでお馴染みの便利な関数を検索できます。
 
 
-
+Precompile Prefix Headerを追加し、記入することでソースが認識されます。
 Build Settings
-
 Precompile Prefix Header - YES
-
 Prefix Header - $(SRCROOT)/PrefixHeader.pch
 
 
