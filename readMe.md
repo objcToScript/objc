@@ -11,9 +11,11 @@ Precompile Prefix Headerを追加し、記入することでソースが認識�
 example
 
 Before
+
 NSArray* values = [@"test , test" componentsSeparatedByString:@","];
 
 After
+
 NSArray* values = [@"teste , test" _split:@","];
 
 _でScriptでお馴染みの便利な関数を検索できます。
