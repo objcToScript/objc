@@ -8,12 +8,23 @@ Objective-cをExtensionで加工してScriptのような便利さで使うこと
 
 Precompile Prefix Headerを追加し、記入することでソースが認識されます。
 
+example
+
+Before
+NSArray* values = [@"test , test" componentsSeparatedByString:@","];
+
+After
+NSArray* values = [@"teste , test" _split:@","];
+
+_でScriptでお馴染みの便利な関数を検索できます。
+
+
+
 Build Settings
 
 Precompile Prefix Header - YES
 
 Prefix Header - $(SRCROOT)/PrefixHeader.pch
-
 
 
 The goal is to process Objective-c with Extension and use it as convenient as Script.
