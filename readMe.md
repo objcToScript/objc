@@ -13,13 +13,13 @@ Before
 
 NSArray* values = [@"test , test" componentsSeparatedByString:@","];
 
-NSString* str = [@" test   " stringByReplacingOccurrencesOfString:@"test " withString:@""];
+NSString* str = [@" test   " stringByReplacingOccurrencesOfString:@"test" withString:@""];
 
 After
 
 NSArray* values = [@"teste , test" _split:@","];
 
-NSString*str = [@" test   " _replace:@" " replaceStr:@""];
+NSString*str = [@"   test   " _replace:@"test" replaceStr:@""];
 
 
 _でScript言語でお馴染みの便利な関数を検索できます。
