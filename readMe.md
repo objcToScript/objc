@@ -13,11 +13,16 @@ Before
 
 NSArray* values = [@"test , test" componentsSeparatedByString:@","];
 
+NSString* str = [@" test   " stringByReplacingOccurrencesOfString:@"test " withString:@""];
+
 After
 
 NSArray* values = [@"teste , test" _split:@","];
 
-_でScriptでお馴染みの便利な関数を検索できます。
+NSString*str = [@" test   " _replace:@" " replaceStr:@""];
+
+
+_でScript言語でお馴染みの便利な関数を検索できます。
 
 
 Precompile Prefix Headerを追加し、記入することでソースが認識されます。
