@@ -23,6 +23,7 @@ NSString*str = [@"   test   " _replace:@"test" replaceStr:@""];
 
 
 _でScript言語でお馴染みの便利な関数を検索できます。
+
 _をつけることで既存の関数とごっちゃになることがないので、オリジナル関数をたくさん追加していくことができます
 
 Precompile Prefix Headerを追加し、記入することでソースが認識されます。
@@ -36,3 +37,5 @@ I am processing Objective-c with Extension so that it can be used with convenien
 Extension of existing NS class, UI class is added and familiar function is added by Script
 
 You can search by adding _ at the beginning of the function name
+
+You can add a lot of original functions, because adding _ does not mess with existing functions.
